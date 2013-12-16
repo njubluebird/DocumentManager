@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+#topbar img{
+    float: right;
+    width:100%;
+    height: 370px
+}
+/*#topbar{*/
+    /*background-color:#FFD700;*/
+    /*height: 40px;*/
+/*}*/
+/*#topbar .span12{*/
+    /*margin-left: 8%;*/
+    /*margin-top: 10px;*/
+    /*font:bold 20px arial,sans-serif;*/
+/*}*/
+
+/*导航栏*/
+.navbar{
+    height: 80px;
+}
+.container{
+    padding: 1% ;
+}
+.brand{
+    font: 25px arial;
+}
+.nav >li{
+    font: 22px  arial;
+}
+.dropdown-menu{
+    background-color: #EAEAEA;
+}
+.dropdown-menu li{
+    width: 90%;
+    padding: 4px;
+    margin: 4px auto;
+    border-bottom: 1px dotted;
+    font:16px arial;
+}
+.dropdown-menu li:hover{
+    background-color: #ffffff;
+    border-bottom: 1px solid;
+}
+.dropdown-menu li:hover a{
+    color: #000000;
+    background-color: #ffffff;
+}
+#login{
+    color:#ffffff;
+}
+
+/*导航栏鼠标悬停*/
+.navbar .nav > li:hover{
+    background-color: #0000ff;
+}
+.navbar .nav > li .dropdown-menu {
+    /*margin: 0;*/
+    display: none;
+}
+.navbar .nav > li:hover .dropdown-menu {
+    display: block;
+}
+
+/*页面底部footer*/
+#footer{
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#EAEAEA ;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}

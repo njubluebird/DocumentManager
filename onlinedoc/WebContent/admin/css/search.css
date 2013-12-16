@@ -1,0 +1,63 @@
+#keyword{
+    height: 30px;
+}
+
+#search{
+    text-align: center;
+    margin:0px auto;
+    height: 360px;
+}
+
+#logo{
+    color: #428BCA;
+    font-family: comic sans ms;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+#logo span{
+    font-size: 30px;
+}
+
+form{
+    width:55%;
+    height: 360px;
+    margin:0px auto;
+    margin-top: 50px;
+}
+
+#precise{
+    border: 1px solid gray;
+    margin:0px auto;
+    height: 360px;
+}
+
+.preitem{
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+.preitem span{
+    font-family: comic sans ms;
+    font-size: 18px;
+}
+
+.preinput{
+    float: right;
+    margin-right: 10px;
+}
+
+#starttime{
+    margin-left: 70px;
+}
+
+#prebutton{
+    float: right;
+    margin-right: 10px;
+    background-image: url("../img/icon/sclose.png");
+}
+#prebutton:hover{
+    background-image: url("../img/icon/bclose.png");
+}

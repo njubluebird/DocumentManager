@@ -1,0 +1,32 @@
+@charset "utf-8";
+#rstext{
+    width: 220px;
+    margin: 8px auto;
+    text-align: center;
+    font-size: 22px;
+    line-height: 32px;
+    color: red;
+}
+
+form{
+    width:330px;
+    margin:0px auto;
+}
+
+input{
+    height:30px;
+}
+
+button{
+    margin-top: 20px;
+}
+
+
+/*ҳ��ײ�footer*/
+#footer{
+    margin-top:120px;
+    height:45px;
+    
+}
+
+
